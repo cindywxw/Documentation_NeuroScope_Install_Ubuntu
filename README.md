@@ -47,7 +47,7 @@ tar xvzf neuroscope-2.0.0.tar.gz
   
 7. Build and install neuroscope as libklustersshared in step 4.
 ```bash
-cd neuroscope-2.0.0/  (the directory where you download libklustersshared)
+cd neuroscope-2.0.0/  (the directory where you download neuroscope)
 mkdir build && cd build
 cmake -DCMAKE_INSTALL_PREFIX=$HOME .. 
 make install
