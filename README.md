@@ -34,9 +34,9 @@ make install
   
 5. Add symbolic links:
 ```bash
-$ sudo ln -s /home/[user name]/lib/libklustersshared.so /usr/lib/libklustersshared.so
-$ sudo ln -s /home/[user name]/lib/libklustersshared.so.2 /usr/lib/libklustersshared.so.2
-$ sudo ln -s /home/[user name]/lib/libklustersshared.so.2.0.0 /usr/lib/libklustersshared.so.2.0.0
+sudo ln -s /home/[user name]/lib/libklustersshared.so /usr/lib/libklustersshared.so
+sudo ln -s /home/[user name]/lib/libklustersshared.so.2 /usr/lib/libklustersshared.so.2
+sudo ln -s /home/[user name]/lib/libklustersshared.so.2.0.0 /usr/lib/libklustersshared.so.2.0.0
 ```
   
 6. Download codes of "neuroscope" from [sourceforge](http://neurosuite.sourceforge.net/GNULinux.html) (modified neuroscope from github in the future).  
